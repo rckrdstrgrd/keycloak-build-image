@@ -8,4 +8,4 @@ RUN git clone https://github.com/keycloak/keycloak.git
 
 RUN cd keycloak
 
-CMD mvn install 
+RUN mvn install
