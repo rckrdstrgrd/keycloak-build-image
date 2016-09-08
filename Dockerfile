@@ -6,6 +6,4 @@ VOLUME /source
 
 RUN git clone https://github.com/keycloak/keycloak.git
 
-RUN cd keycloak
-
-RUN mvn install
+RUN cd keycloak && mvn install
